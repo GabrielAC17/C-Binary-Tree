@@ -7,18 +7,18 @@
 int main(int argc, char *argv[])
 {
 	setlocale(LC_ALL, "Portuguese");
-	/*
+	
 	if (argc != 2) {
 		printf("Uso: %s Arquivo de texto\n",argv[0]);
 	}
 
 	else {
-	*/
+	
 		char cmd[100];
 		char args[100];
 		int numero;
-		//FILE * arq = fopen(argv[1], "r");
-		FILE * arq = fopen("C:\\Users\\gabri\\Desktop\\Positivo\\Programação II\\4 bimestre\\arvore\\Debug\\coisas.txt", "r");
+		FILE * arq = fopen(argv[1], "r");
+		//FILE * arq = fopen("C:\\Users\\gabri\\Desktop\\Positivo\\Programação II\\4 bimestre\\arvore\\Debug\\coisas.txt", "r");
 
 		if (arq == 0)
 			printf("Erro ao abrir o arquivo\n");
@@ -226,9 +226,9 @@ int main(int argc, char *argv[])
 				}
 			}
 		}
-	/*
+	
 	}
-	*/
+	
 
 	return 0;
 }
